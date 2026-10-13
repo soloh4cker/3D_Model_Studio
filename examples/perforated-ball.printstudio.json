@@ -1,0 +1,42 @@
+{
+  "format": "print-studio",
+  "version": 1,
+  "name": "Perforated ball",
+  "bed": [
+    260,
+    260,
+    255
+  ],
+  "parts": [
+    {
+      "id": "4912a724-6727-42ae-90d3-575ac5ff2140",
+      "type": "sphere",
+      "name": "Sphere",
+      "params": {
+        "diameter": 80
+      },
+      "position": [
+        0,
+        0,
+        40
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "parentId": null,
+      "hole": false,
+      "visible": true,
+      "hollow": true,
+      "shell": 2.4,
+      "surface": {
+        "pattern": "hexagon",
+        "mode": "holes",
+        "size": 8,
+        "gap": 3,
+        "depth": 1
+      }
+    }
+  ]
+}

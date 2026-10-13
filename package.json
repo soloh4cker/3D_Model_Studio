@@ -1,0 +1,17 @@
+{
+  "name": "print-studio",
+  "version": "1.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node verify.mjs"
+  },
+  "dependencies": {
+    "@jscad/modeling": "^2.13.0",
+    "esbuild": "^0.28.2",
+    "fflate": "^0.8.3",
+    "manifold-3d": "^3.5.4",
+    "three": "^0.186.1"
+  }
+}
